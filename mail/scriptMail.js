@@ -26,9 +26,11 @@ const mailData = [
 const search = prompt("inserire indirizzo email");
 
 if (mailData.includes(search)){
-for(i = 0 ; i < mailData.length() ; i++){
-    if (mailData[i] === search){
-        console.log(`email valida, accesso consentito (col ${mailData.indexOf[i]}))`)
+    for(i = 0 ; i < mailData.length ; i++){
+        if (mailData[i] === search){
+            console.log(`email valida, accesso consentito (col ${mailData.indexOf[i]}))`)
+        }
     }
-}
+} else {
+    console.log("email non presente nel database, accesso negato")
 }
