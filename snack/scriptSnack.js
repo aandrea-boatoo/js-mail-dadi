@@ -45,11 +45,11 @@ console.clean;
 
 //calcola la somma e la media dei primi 10 numeri
 
-let somma = 0
-let media = 1
-for(let i = 1 ; i <= 10 ; i++){
-    somma = somma + i;
-    console.log(somma);
-    media = somma / i;
-    console.log(media)
-}
+// let somma = 0
+// let media = 1
+// for(let i = 1 ; i <= 10 ; i++){
+//     somma = somma + i;
+//     console.log(somma);
+//     media = somma / i;
+//     console.log(media)
+// }
